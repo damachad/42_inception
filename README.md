@@ -63,4 +63,4 @@ sudo systemctl nginx stop
 6. **Access the domain name on your browser**
 
 ## 🗒️ Notes
-https://spicy-dirigible-2b6.notion.site/Inception-b663a32e459b46c3b32874241c08e582
+[Documentation](https://spicy-dirigible-2b6.notion.site/Inception-b663a32e459b46c3b32874241c08e582)
