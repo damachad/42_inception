@@ -47,11 +47,20 @@ The setup includes:
     WP_U_EMAIL=*******
     WP_URL=https://login.42.fr
    ```
-3. **Run the Makefile**
+3. **Update the the volumes' paths**   
+Update the Makefile where it says WP_DATA and DB_DATA, with /home/login/data/wordpress/ and /home/login/data/mariadb/ respectively (updating with your login).
+Update the **docker-compile.yml** file with this information in the volumes section.
+4. **Stop MariaDB and NGINX from your machine**   
+ If you have mariadb or NGINX running on your machine, stop them before running by running:
+``` sh
+sudo systemctl mariadb stop
+sudo systemctl nginx stop
+```
+5. **Run the Makefile**
    ```sh
    make
    ```
-4. **Access the domain name on your browser**
+6. **Access the domain name on your browser**
 
 ## 🗒️ Notes
 https://spicy-dirigible-2b6.notion.site/Inception-b663a32e459b46c3b32874241c08e582
