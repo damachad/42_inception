@@ -10,8 +10,8 @@
 #                                                                              #
 # **************************************************************************** #
 
-WP_DATA = /home/damachad/data/wordpress/
-DB_DATA = /home/damachad/data/mariadb/
+WP_DATA = /home/login/data/wordpress/
+DB_DATA = /home/login/data/mariadb/
 DOMAIN_NAME = login.42.fr
 
 all: up
