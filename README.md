@@ -53,8 +53,8 @@ Update the **docker-compile.yml** file with this information in the volumes sect
 4. **Stop MariaDB and NGINX from your machine**   
  If you have mariadb or NGINX running on your machine, stop them before running by running:
 ``` sh
-sudo systemctl mariadb stop
-sudo systemctl nginx stop
+sudo systemctl stop mariadb
+sudo systemctl stop nginx
 ```
 5. **Run the Makefile**
    ```sh
